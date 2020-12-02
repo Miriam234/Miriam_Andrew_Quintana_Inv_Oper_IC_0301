@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,56,209"/>
+<area shape="rect" id="node2" href="$_simplex1_8h.html#a606925c103632e7ac68a7f58447b375c" title="Divide la nueva fila entre el pivote." alt="" coords="114,5,177,32"/>
+<area shape="rect" id="node3" href="$_simplex1_8h.html#a21de259f7de576065a5fe83045c3964c" title="Indica una nueva fila." alt="" coords="109,56,182,83"/>
+<area shape="rect" id="node4" href="$_simplex1_8h.html#a4debfa3f532937253d9fcf18aa24d3e9" title="Nos permite ingresar la función a maximizar." alt="" coords="114,107,177,133"/>
+<area shape="rect" id="node5" href="$_simplex1_8h.html#aa9b1307024a7f553a7ddded25d0fc173" title="Nos permite introducir datos a nuestra tabla Simplex." alt="" coords="111,157,179,184"/>
+<area shape="rect" id="node6" href="$_simplex1_8h.html#ac4d092d665ac6d4a6750a65c6f992e92" title="Identifica la columna menor de la tabla." alt="" coords="112,208,179,235"/>
+<area shape="rect" id="node7" href="$_simplex1_8h.html#a8ccac335a12711c85292450eca674ff5" title="Identifica la fila menor de la tabla." alt="" coords="112,259,179,285"/>
+<area shape="rect" id="node8" href="$_simplex1_8h.html#ab22ea52f0ef2e0c7486b14fdba46549e" title="Nos imprime en pantalla la tabla Simplex." alt="" coords="112,309,179,336"/>
+<area shape="rect" id="node9" href="$_simplex1_8h.html#acba835380ab574276d76a7e387c6b632" title="Nos permite ingresar el número de restricciones." alt="" coords="104,360,187,387"/>
+</map>
