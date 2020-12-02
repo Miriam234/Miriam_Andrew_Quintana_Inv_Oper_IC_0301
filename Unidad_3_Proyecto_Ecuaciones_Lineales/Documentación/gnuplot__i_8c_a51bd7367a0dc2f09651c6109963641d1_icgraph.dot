@@ -1,0 +1,15 @@
+digraph "gnuplot_tmpfile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="gnuplot_tmpfile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gnuplot_plot_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8h.html#a40d69df891d29584351244cf046616b1",tooltip="Plots a 2d graph from a list of doubles."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gnuplot_plot_once",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8h.html#aa39b56b6bb882ace839a3be677d1f665",tooltip="Open a new session, plot a signal, close the session."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gnuplot_plot_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8h.html#a75d0c98d601621974e9687126f922ebd",tooltip="Plot a 2d graph from a list of points."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

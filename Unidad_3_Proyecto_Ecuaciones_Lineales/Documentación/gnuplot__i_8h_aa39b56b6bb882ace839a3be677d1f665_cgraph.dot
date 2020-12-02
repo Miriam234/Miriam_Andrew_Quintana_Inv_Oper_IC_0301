@@ -1,0 +1,33 @@
+digraph "gnuplot_plot_once"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gnuplot_plot_once",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Open a new session, plot a signal, close the session."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gnuplot_close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a416bd48453ce016d6419f0f39fa5c625",tooltip="Closes a gnuplot session previously opened by gnuplot_init()"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gnuplot_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#af38602f2bf3bf427b4c6af1e3cc6f371",tooltip="Opens up a gnuplot session, ready to receive commands."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gnuplot_setstyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a6e5c073fc8478c3ea121f308254b683a",tooltip="Change the plotting style of a gnuplot session."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="gnuplot_plot_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a40d69df891d29584351244cf046616b1",tooltip="Plots a 2d graph from a list of doubles."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gnuplot_plot_atmpfile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#af0ef8c4e1526d98455a6e5dd71a96c15",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="gnuplot_cmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a8c71c6b7a0d957fa9280bf4b984bf43a",tooltip="Sends a command to an active gnuplot session."];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="gnuplot_tmpfile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a51bd7367a0dc2f09651c6109963641d1",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="gnuplot_plot_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a75d0c98d601621974e9687126f922ebd",tooltip="Plot a 2d graph from a list of points."];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="gnuplot_set_xlabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a7ca8edad06bd82e47329b2ab8341c42e",tooltip="Sets the x label of a gnuplot session."];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="gnuplot_set_ylabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a9227fc7321820f696e91f76c15c6ffe3",tooltip="Sets the y label of a gnuplot session."];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

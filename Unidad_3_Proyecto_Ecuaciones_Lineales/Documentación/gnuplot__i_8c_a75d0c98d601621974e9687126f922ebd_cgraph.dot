@@ -1,0 +1,14 @@
+digraph "gnuplot_plot_xy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gnuplot_plot_xy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Plot a 2d graph from a list of points."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gnuplot_plot_atmpfile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#af0ef8c4e1526d98455a6e5dd71a96c15",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gnuplot_cmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a8c71c6b7a0d957fa9280bf4b984bf43a",tooltip="Sends a command to an active gnuplot session."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gnuplot_tmpfile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gnuplot__i_8c.html#a51bd7367a0dc2f09651c6109963641d1",tooltip=" "];
+}
