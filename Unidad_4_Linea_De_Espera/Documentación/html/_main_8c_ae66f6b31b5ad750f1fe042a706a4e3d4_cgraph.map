@@ -1,0 +1,8 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,56,133"/>
+<area shape="rect" id="node2" href="$_espera1_8h.html#acfa53f6303f89799182dd4e282e54680" title="Función para la espera de clientes." alt="" coords="125,5,186,32"/>
+<area shape="rect" id="node3" href="$_espera1_8h.html#a0dd6a6506f89551906f7a8efa4cf0f3a" title="Imprime la tabla de Linea de Espera." alt="" coords="121,56,189,83"/>
+<area shape="rect" id="node4" href="$_espera1_8h.html#abb086fa1d122e8727fab9c4bc11c9edb" title="Imprime el rango de horas." alt="" coords="104,107,207,133"/>
+<area shape="rect" id="node5" href="$_espera1_8h.html#ace379127e70630d30cc9ee35f5d70427" title="Función para las entradas acumuladas." alt="" coords="130,157,181,184"/>
+<area shape="rect" id="node6" href="$_espera1_8h.html#a52b334cc8c3a4ec7c8d6bb5af8ccf974" title="Función para la salida de clientes." alt="" coords="127,208,183,235"/>
+</map>
